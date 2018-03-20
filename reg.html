@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body background="back.jpg" style="background-repeat:no-repeat;background-size:cover";>
+<script type="text/javascript" src="webval.js"></script>
+<h><b>Registration Form</b></h>
+<form action="lgn.html" onsubmit="return validate()" id="f">
+
+User name:<br>
+<input type="text" name="userid" id="unm"  autofocus>
+<br>
+User password:<br>
+<input type="password" name="psw" id="pw" ><br>
+Verify password:<br>
+<input type="password" name="psw" id="vpw" >
+<br><br>
+Date of birth:<br>
+<input type="date" name="db" id="dob"  min="1998-01-01" max="2000-12-31"><br>
+Select gender:<br>
+<input type="radio" name="g" value="m">Male<br>
+<input type="radio" name="g" value="f" >Female<br> <br>
+Select Subject:<br>
+<input type="checkbox" name="sub" value="c">C
+<input type="checkbox" name="sub" value="cpp">C++
+<input type="checkbox" name="sub" value="java">JAVA
+<input type="checkbox" name="sub" value="python">PYTHON<br><br>
+ <input type="submit" value="Register" >
+  <input type="reset" >
+</form>
+</body>
+</html>
